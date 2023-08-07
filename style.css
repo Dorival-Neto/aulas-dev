@@ -1,0 +1,126 @@
+
+/*PADRÕES DE FORMATAÇÃO*/
+html{
+    background-color: whitesmoke;}
+
+h1 {
+    color: white;
+    font-family: Noto Serif;}
+
+h2 {color: white;
+    font-family: Noto Serif;}
+
+h3 {color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+p {color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+h5 {color: white;
+    font-family:'Times New Roman', Times, serif}
+
+.fundo-geral{background-color:   rgb(34, 34, 34);}
+/*--------------------------------------------------------------------------*/
+
+
+/*CÓDIGO REFERENTE AO CABEÇALHO*/
+.cabecalho { 
+    display: flex;
+    flex-direction: line;
+    background-color: red;
+    max-height: 158px;
+    align-items: center;
+}
+
+.CRF-header {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 28.855px 0px;
+}
+
+.nome-do-clube-cabecalho{
+padding: 28.855px 400px;
+font-family: Vollkorn;
+}
+
+.bem-vindo{
+padding: 60px 0px 60px 40px;
+margin: 0px;
+font-family: Vollkorn
+}
+/*--------------------------------------------------------------------------*/
+
+
+/*CÓDIGO REFERENTE À INTRODUÇÃO*/
+.introducao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    color: black;}
+/*--------------------------------------------------------------------------*/
+
+
+/*CÓDIGO REFERENTE AO TÓPICO DE EMOÇÃO DO TORCEDOR*/
+.tópico-01{
+padding: 80px 0px 30px 10px;
+font-size: 30px;}
+
+.definição-flamengo{
+display: flex;}
+
+.texto-torcida{
+max-width: 600px;
+padding: 100px 40px 0px 200px;
+font-size: 25px;}
+
+.imagem-torcida{
+max-width: 649.59375px;
+max-height: 799,11px;
+padding: 0px 30px 0px px;}
+/*--------------------------------------------------------------------------*/
+
+
+/*CÓDIGO REFERENTE À HISTÓRIA DO CLUBE*/
+
+.tópico-02 {
+    padding: 80px 0px 30px 10px;
+    font-size: 30px;}
+
+.historia-do-clube {
+    display: flex;
+padding: 20px 0px 150px 0px;}
+
+.fundacao-flamengo {
+    max-width: 600px;
+padding: 150px 100px 0px 110px;
+font-size: 25px;}
+
+.imagens-historia{display: flex;}
+
+.escudos-flamengo{
+    max-width: 500px;
+    padding: 0px 15px 0px 50px;}
+
+.elenco-antigo{max-height: 200px;
+padding: 173.51px 10px;}
+
+/*--------------------------------------------------------------------------*/
+
+
+/*CÓDIGO REFERENTE AO TÓPICO DE ÍDOLOS*/
+.idolo-1 {
+display: flex;}
+
+.idolo-gabigol {
+padding: 20px;}
+
+.texto-gabigol {
+   display: flex;
+   flex-direction: column;
+   font-size: 18px;}
+
+.link-gabigol {
+    padding: 250px 150px 0px 0px;
+    font-size: 15px;
+    text-align: left;}
